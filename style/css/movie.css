@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+div.header.large.first {
+    border-bottom: 1px solid rgba(12.75%, 12.75%, 48.04%, 1.00);
+    background-position: right -200px top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(//image.tmdb.org/t/p/w1920_and_h800_multi_faces/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg);
+}
+section.inner_content div.custom_bg {
+    background-image: linear-gradient(to right, rgba(9.80%, 9.80%, 43.92%, 1.00) 150px, rgba(15.69%, 15.69%, 52.16%, 0.84) 100%);
+}
+section div.header.first div.single_column {
+    background: transparent;
+}
+constructed stylesheet
+section div.header.first div.single_column {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+section.inner_content section.images {
+    display: flex;
+    flex-wrap: nowrap;
+}
+body * {
+    box-sizing: border-box;
+}
+section.inner_content section.images > div.poster_wrapper {
+    border-width: 0px;
+    min-width: 300px;
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: var(--imageBorderRadius);
+}
+div.header_poster_wrapper {
+    display: flex;
+}
+section.inner_content section.header {
+    color: #ffffff;
+}
+section.inner_content section.header div.title {
+    width: 100%;
+    margin-bottom: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+section.inner_content section.header ul.actions {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+div.header_info {
+    width: 100%;
+}
+section.inner_content section.header h3.tagline {
+    margin-bottom: 0;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-style: italic;
+    opacity: 0.7;
+}
+section.inner_content section.header h3.tagline + h3 {
+    margin-top: 10px;
+}
+constructed stylesheet
+section.inner_content section.header h3 {
+    width: 100%;
+    margin: 0 0 8px 0;
+}
+ol.people.no_image, ol.people.no_cast {
+    margin-top: 20px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+constructed stylesheet
+ol.people {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+ol.people li p {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+ol.people li p.character {
+    font-size: 0.9em;
+}
